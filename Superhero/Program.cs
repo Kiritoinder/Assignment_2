@@ -26,7 +26,9 @@ namespace Superhero
         static void Main(string[] args)
         {
             //Superhero Name
-            Console.WriteLine("Yo! What's Your Superhero's Name? ");
+            Console.WriteLine("*****************-----------------------******************");
+
+            Console.Write("Yo! What's Your Superhero's Name? ");
             string Avenger = Console.ReadLine();
             //Create a new instance of the Superhero class
             SuperHero superHero = new SuperHero(Avenger);

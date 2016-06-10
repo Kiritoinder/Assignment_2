@@ -78,13 +78,14 @@ namespace Superhero
          */
         public void ShowPowers()
         {
+            
             Console.WriteLine("Our Super Hero {0} Have the  following super powers.", base.Name);
-            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
             for (int i = 0; i < 3; i++)
             {
                 Console.WriteLine(_superPowers[i]);
             }
-            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         }
     }
 }

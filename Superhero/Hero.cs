@@ -195,13 +195,13 @@ namespace Superhero
         {
             _hitAttempt();
             _hitDamage();
-            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("+{0} is the Superhero!  \t\t\t\t", this.Name);
             Console.WriteLine("+These are {0}'s abilities\t\t\t ", this.Name);
             Console.WriteLine("+Health  ==== {0}\t\t\t\t", _health);
             Console.WriteLine("+Strength  ====  {0}\t\t\t\t", _strength);
             Console.WriteLine("+Speed ====  {0} \t\t\t\t", _speed);
-            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         }
     }
 }

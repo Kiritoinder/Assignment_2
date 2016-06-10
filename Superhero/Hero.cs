@@ -7,22 +7,22 @@ using System.Threading.Tasks;
 * Author: Inderjeet Singh
 * Student Number: 300874118
 * Date Created: June 10, 2016
-* Description: Superhero Class
+* Description: My Hero Class
 * Version: 0.0.2
 */
 namespace Superhero
 {
     /**
-     * This class defines a Superhero
+     * This class defines a Hero
      * 
-     * @class Superhero
+     * @class Hero
      * @field {int} _strength
      * @field {int} _speed
      * @field {int} _health
      * @field {string} _name
 
      */
-    public class Superhero
+    public class Hero
     {
         //PRIVATE INSTANCE VARIABLES +++++++++++++++++++++++++
         private string _name;
@@ -67,7 +67,7 @@ namespace Superhero
          * @parm {string} _name
          */
 
-        public Superhero(string name)
+        public Hero(string name)
         {
             this._name = name;
             _generateAbilities();
@@ -157,7 +157,7 @@ namespace Superhero
         */
         public void speed()
         {
-            if (this._speed <= 60)
+            if (this._speed <= 50)
             {
                 Console.WriteLine("Awwwww____ Your Superhero is Sooooo Slow -_-");
             }
@@ -175,7 +175,7 @@ namespace Superhero
          */
         public void health()
         {
-            if (this._health <= 75)
+            if (this._health <= 65)
             {
                 Console.WriteLine("Gosh Low Health.");
             }
@@ -196,11 +196,11 @@ namespace Superhero
             _hitAttempt();
             _hitDamage();
             Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++");
-            Console.WriteLine("+{0} is the Superhero!  \t\t\t\t+", this.Name);
-            Console.WriteLine("+These are {0}'s abilities\t\t\t+ ", this.Name);
-            Console.WriteLine("+Health  ==== {0}\t\t\t\t+", _health);
-            Console.WriteLine("+Strength  ====  {0}\t\t\t\t+", _strength);
-            Console.WriteLine("+Speed ====  {0} \t\t\t\t+", _speed);
+            Console.WriteLine("+{0} is the Superhero!  \t\t\t\t", this.Name);
+            Console.WriteLine("+These are {0}'s abilities\t\t\t ", this.Name);
+            Console.WriteLine("+Health  ==== {0}\t\t\t\t", _health);
+            Console.WriteLine("+Strength  ====  {0}\t\t\t\t", _strength);
+            Console.WriteLine("+Speed ====  {0} \t\t\t\t", _speed);
             Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++");
         }
     }
